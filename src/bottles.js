@@ -33,7 +33,7 @@ export class Bottle {
         this.image.h = ratio * this.image.h;
     };
 
-    render(screen){
+    render(screen, i = (Math.random() * 10), t = 10){
         const div = document.createElement('div');
         const img = document.createElement('img')
         img.setAttribute('src',this.image.src);
@@ -41,7 +41,7 @@ export class Bottle {
         div.style.width = `${this.image.w}px`;
         div.style.height = `${this.image.h}px`;
         div.style.left = `${(Math.random() * (screen.w - this.image.w))}px`;
-        div.style.top = `${screen.h/3 + ( Math.random() * (screen.h/3 - this.image.h)) }px`;
+        div.style.top = `${screen.h/3 + (( screen.h/3 - this.image.w ) * i /t) }px`;
         div.className = 'bottle';
         div.appendChild(img);
         return div
