@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@keyframes floating {
+    0%   {margin-top: calc(-100vh/54);}
+    25%  {margin-top: calc(50vh/54);}
+    50%  {margin-top: calc(-50vh/54)}
+    100% {margin-top: calc(-100vh/54)}
+}
+@keyframes wave {
+    0% { background-position:0 center; }
+    100% { background-position:-200vw center; }
+}
+
+html {
+    overflow: hidden;
+}
+
+.container {
+    width:200vw;
+}
+
+.waves {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background-size: 100vw 100vh;
+}
+
+.wave1{
+    background-image: url('./images/waves1.png');
+    animation:wave 12s infinite linear;
+}
+.wave2{
+    background-image: url('./images/waves2.png');
+    animation:wave 11s infinite linear;
+}
+.wave3{
+    background-image: url('./images/waves3.png');
+    animation:wave 10s infinite linear;
+}
+
+section{
+    width:100vw;
+    height: 100vh;
+    flex: 0 0 auto;
+}
+.sky {
+    background-color: #D7EEF4;
+    width: 200vw;
+    display: flex;
+    flex-flow: row wrap;
+}
+.sea {
+    background-color: #37abc8;
+    background-image: url('./images/undersea.png');
+    background-size: 200vw 100vh;
+    animation:wave 4s infinite linear;
+    width: 200vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+}
+.island{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+}
+#page3{
+    background-image: url('./images/bottom2.png');
+    background-size: 100vw 100vh;
+}
+
+#page4{
+    background-image: url('./images/bottom1.png');
+    background-size: 100vw 100vh;
+}
+
+#next{
+    z-index: 3;
+    position: fixed;
+    bottom: 10vh;
+    right: 10vw;
+    width: 60px;
+    height: 60px;
+    background-color: #a34740;
+    color:#D7EEF4;
+    border-radius:50%;
+    border: none;
+}
+
+.bottle {
+    position: absolute;
+    z-index: 2;
+    animation: floating 6s infinite linear;
+}
+.bottle img {
+    max-width: 100%;
+}
+
+.closed {
+    display: none;
+}
+
+.open {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    position: absolute;
+    height: 60vh;
+    width: 60vw;
+    margin: 20%;
+    background-color: beige;
+    z-index: 5;
+    padding: 20px;
+}
+
+.textos {
+    width: 100vw;
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    margin-top: 40vh;
+    z-index: 6;
+    color: beige;
+    text-shadow: #a34740 20px;
+}
+.close, #author {
+    text-align: right;
+}
