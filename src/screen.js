@@ -64,10 +64,10 @@ export class Screen {
         for( let i=0; i < l; i++){
             oldBottles[0].remove();
         }
-        
+        let counter = 0;
         bottles.forEach(b => {
-            console.log(' se ha renderizado la botella de ', b.author)
-            let div = b.render(this.size);
+            let div = b.render(this.size, counter, bottles.length);
+            counter++;
             document.getElementById('bottles').appendChild(div);
             div.addEventListener('click', () => {
                 this.openPopUp();
