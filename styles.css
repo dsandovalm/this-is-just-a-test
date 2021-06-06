@@ -31,15 +31,18 @@ html {
 
 .wave1{
     background-image: url('./images/waves1.png');
-    animation:wave 12s infinite linear;
+    animation:wave 6s infinite linear;
+    animation-delay: 1s;
 }
 .wave2{
     background-image: url('./images/waves2.png');
-    animation:wave 11s infinite linear;
+    animation:wave 7s infinite linear;
+    animation-delay: 0.5s;
 }
 .wave3{
     background-image: url('./images/waves3.png');
-    animation:wave 10s infinite linear;
+    animation:wave 7.5s infinite linear;
+    animation-delay: 1.5s;
 }
 
 section{
