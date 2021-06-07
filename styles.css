@@ -109,6 +109,8 @@ section{
     border: none;
 }
 
+/* - - - BOTELLAS - - - */
+
 .bottle {
     position: absolute;
     z-index: 2;
@@ -144,6 +146,8 @@ section{
     text-align: right;
 }
 
+/* - - - TEXTOS - - - */
+
 .textos {
     width: 100vw;
     position: absolute;
@@ -152,6 +156,7 @@ section{
     margin-top: 40vh;
     z-index: 6;
     color: beige;
-    text-shadow: #a34740 6px 6px 3px;
+    text-shadow: #a34740 3px 3px 6px;
     font-family: 'Baloo Tammudu 2', sans-serif;
+    font-weight: 700;
 }
