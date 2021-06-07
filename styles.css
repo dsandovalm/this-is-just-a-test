@@ -113,10 +113,11 @@ section{
 
 .tuto {
     position:absolute;
-    bottom: 10vh;
-    right: 30vw;
+    bottom: 10px;
+    right: 10px;
     color: #1d0122;
     text-shadow: beige 1px 1px 2px;
+    z-index:5;
     
 }
 
@@ -164,7 +165,7 @@ section{
     width: 100vw;
     position: absolute;
     margin: 0;
-    margin-top: 40vh;
+    margin-top: 10vh;
     z-index: 3;
     color: beige;
     text-shadow: #1d0122 3px 3px 6px;
