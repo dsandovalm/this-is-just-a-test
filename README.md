@@ -1,4 +1,4 @@
-
+_Borrar_
 ## Colaboradoras
 
 Los mensajes se cargan desde el archivo `src/messages.js`, si quieren añadir un mensaje escribanlo ahi, como un objeto dentro del arreglo con los atributos `message` con el texto que quieran que lleve y `author` con su nombre. 
