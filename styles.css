@@ -21,10 +21,11 @@ section{
 /* - - - ANIMACIONES - - - */
 
 @keyframes floating {
-    0%   {margin-top: calc(-100vh/54);}
-    25%  {margin-top: calc(50vh/54);}
-    50%  {margin-top: calc(-50vh/54)}
-    100% {margin-top: calc(-100vh/54)}
+    0%   { margin-top: calc(-100vh/54) }
+    25%  { margin-top: calc(50vh/54) }
+    50%  { margin-top: calc(-50vh/54) }
+    75%  { margin-top: calc(100vh/54) }
+    100% { margin-top: calc(-100vh/54) }
 }
 
 @keyframes wave {
@@ -97,16 +98,26 @@ section{
 /* - - - BOTON - - - */
 
 #next{
-    z-index: 3;
+    width: 60px;
+    height: 60px;
     position: fixed;
     bottom: 10vh;
     right: 10vw;
-    width: 60px;
-    height: 60px;
-    background-color: #a34740;
-    color:#D7EEF4;
+    z-index: 6;
+    background-color: #1d0122;
+    color: beige;
     border-radius:50%;
     border: none;
+    font-family: 'Baloo Tammudu 2', sans-serif;
+}
+
+.tuto {
+    position:absolute;
+    bottom: 10vh;
+    right: 30vw;
+    color: #1d0122;
+    text-shadow: beige 1px 1px 2px;
+    
 }
 
 /* - - - BOTELLAS - - - */
@@ -116,6 +127,7 @@ section{
     z-index: 2;
     animation: floating 6s infinite linear;
 }
+
 .bottle img {
     max-width: 100%;
 }
@@ -153,10 +165,11 @@ section{
     position: absolute;
     margin: 0;
     margin-top: 40vh;
-    z-index: 6;
+    z-index: 3;
     color: beige;
     text-shadow: #1d0122 3px 3px 6px;
     text-align: center;
+    font-size: 30px;
     font-family: 'Baloo Tammudu 2', sans-serif;
     font-weight: 700;
 }
