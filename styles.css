@@ -152,11 +152,11 @@ section{
     width: 100vw;
     position: absolute;
     margin: 0;
-    text-align: center;
     margin-top: 40vh;
     z-index: 6;
     color: beige;
     text-shadow: #1d0122 3px 3px 6px;
+    text-align: center;
     font-family: 'Baloo Tammudu 2', sans-serif;
     font-weight: 700;
 }
