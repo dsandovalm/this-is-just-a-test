@@ -2,6 +2,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Reenie Beanie', cursive;
 }
 
 html {
@@ -36,13 +37,13 @@ section{
     0% {color: transparent;}
     48% {color:transparent;
     margin-bottom: -70%;}
-    100% {color:tomato;
+    100% {  color:rgb(22, 35, 54);
     margin-bottom:  100%;}
     }
     @keyframes author{
         0% {color: transparent;}
         80% {color:transparent; }
-        100% {color:chocolate;}
+        100% {color:rgb(22, 35, 54);;}
         }
     
 @keyframes change{
@@ -180,9 +181,8 @@ background-position: top;}
     justify-content: space-between;
     position: absolute;
     margin: 10% 20%;
-    width: 500px;
+    width: 550px;
     height: 460px;
-    /* background-color: rgba(223, 176, 215, 0.993); */
     z-index: 5;
     padding: 20px;
     background-image:url("./images/pergamino.png");
@@ -202,15 +202,21 @@ background-position: top;}
     text-align: right;
 }
 #author{
-    margin-bottom: 20%;
+    position:absolute;
+    margin: -90px 0 0 330px; 
+    color: rgb(46, 31, 2);
+    font-size: 25px;
+    font-family: 'Reenie Beanie';
     animation: author 5s 1;
 }
 #text {
     position: absolute;
-    font-size: 24px;
-    margin: -30vh 0 0 7vw;
+    font-size: 28px;
+    margin: -55vh 0 20vw 9vw;
+    width: 28vw;
     animation: texto 5s 1;
-    color:tomato;
+    font-family: 'Reenie Beanie';
+    color:rgb(22, 35, 54);
 
 }
 
