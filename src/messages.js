@@ -19,4 +19,8 @@ export default [
         message:'Me impulsaste a hacer cosas increibles, me ayudaste a mejorar y apreciar mi trabajo. Siempre, siempre voy a recordarte con mucho cariño. Gracias por tu buena energia! ',
         author:'Diana Católico'
     },
+    {
+        message : 'Dani que tengas muchos éxitos en esta nueva etapa, que te disfrutes al máximo todo el proceso y agradezco muchos todos los espacios y la paciencia que tenia para explicarnos.',
+        author: 'Clei :) '
+    }
 ]
