@@ -16,11 +16,15 @@ export default [
         author:'Tati Roa'
     },
     {
-        message:'Me impulsaste a hacer cosas increibles, me ayudaste a mejorar y apreciar mi trabajo. Siempre, siempre voy a recordarte con mucho cariño. Gracias por tu buena energia! ',
+        message:'Eres una persona asombrasa, seguro a donde vayas estaras proyectando tu de luz y alegría. Gracias a ti logré cosas que ni siquiera imaginaba, me ayudaste a mejorar y apreciar mi trabajo. Siempre, siempre voy a recordarte con mucho cariño. ¡Gracias por tu buena energia! ',
         author:'Diana Católico'
     },
     {
         message : 'Dani que tengas muchos éxitos en esta nueva etapa, que te disfrutes al máximo todo el proceso y agradezco muchos todos los espacios y la paciencia que tenia para explicarnos.',
         author: 'Clei :) '
+    },
+    {
+        message: `Dani, </br> Gracias por las enseñanzas que nos dejaste en tan corto tiempo, tu paciencia y buenos consejos. Apreciamos mucho lo que hiciste por nosotras. Espero que logres todas esas nuevas metas que te has trazado y que crezcas muchísimo en esta nueva etapa. Te deseo muchos éxitos!`,
+        author: 'Alejandra Pérez'
     }
 ]

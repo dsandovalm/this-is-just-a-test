@@ -159,6 +159,7 @@ background-position: top;}
     color: #1d0122;
     text-shadow: beige 1px 1px 2px;
     z-index:5;
+    font-size: 30px;
     
 }
 
@@ -197,7 +198,13 @@ background-position: top;}
 .closed {
     display: none;
 }
-
+.close{
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-right: 5%;
+    color: darkslategray;
+}
 .close, #author {
     text-align: right;
 }
@@ -217,7 +224,6 @@ background-position: top;}
     animation: texto 5s 1;
     font-family: 'Reenie Beanie';
     color:rgb(22, 35, 54);
-
 }
 
 /* - - - TEXTOS - - - */
