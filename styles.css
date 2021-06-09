@@ -32,6 +32,64 @@ section{
     0% { background-position:0 center; }
     100% { background-position:-200vw center; }
 }
+@keyframes texto{
+    0% {color: transparent;}
+    48% {color:transparent;
+    margin-bottom: -70%;}
+    100% {color:tomato;
+    margin-bottom:  100%;}
+    }
+    @keyframes author{
+        0% {color: transparent;}
+        80% {color:transparent; }
+        100% {color:chocolate;}
+        }
+    
+@keyframes change{
+    0% {height: 50px;
+    background-image: url("./images/secuencia/01.png");
+background-position: top;}
+    8% {height: 150px;
+        background-image: url("./images/secuencia/02.png");
+        background-position: top;}
+    16% {height: 200px;
+        background-image: url("./images/secuencia/03.png");
+        background-position: top;}
+    24% {height: 250px;
+        background-image: url("./images/secuencia/04.png");
+        background-position: top;}
+    32%{height: 300px;
+        background-image: url("./images/secuencia/05.png");
+        background-position: top;}
+    40%{height: 350px;
+        background-image: url("./images/secuencia/06.png");
+        background-position: top;}
+    48%{height: 400px;
+        background-image: url("./images/secuencia/07.png");
+        background-position: top;}
+    56%{height: 450px;
+        background-image: url("./images/secuencia/08.png");
+        background-position: top;}
+    64%{height: 460px;
+        background-image: url("./images/secuencia/09.png");
+        background-position: top;}
+    72%{height: 470px;
+        background-image: url("./images/secuencia/10.png");
+        background-position: top;}
+    80%{height: 480px;
+        background-image: url("./images/secuencia/11.png");
+        background-position: top;}
+    88%{height: 500px;
+        background-image: url("./images/secuencia/12.png");
+        background-position: top;}
+    96%{height: 500px;
+        background-image: url("./images/secuencia/13.png");
+        background-position: top;}
+    100%{height: 500px;
+            background-image: url("./images/pergamino.png")
+        }
+  }
+
 
 /* - - - SUPERFICIE - - - */
 
@@ -121,12 +179,15 @@ section{
     flex-flow: column;
     justify-content: space-between;
     position: absolute;
-    height: 60vh;
-    width: 60vw;
     margin: 10% 20%;
-    background-color: beige;
+    width: 500px;
+    height: 460px;
+    /* background-color: rgba(223, 176, 215, 0.993); */
     z-index: 5;
     padding: 20px;
+    background-image:url("./images/pergamino.png");
+    background-position: bottom;
+    animation:  change 5s 1;
 }
 
 .open {
@@ -140,6 +201,18 @@ section{
 .close, #author {
     text-align: right;
 }
+#author{
+    margin-bottom: 20%;
+    animation: author 5s 1;
+}
+#text {
+    position: absolute;
+    font-size: 24px;
+    margin: -30vh 0 0 7vw;
+    animation: texto 5s 1;
+    color:tomato;
+
+}
 
 /* - - - TEXTOS - - - */
 
@@ -148,6 +221,7 @@ section{
     position: absolute;
     margin: 0;
     margin-top:30vh;
+    margin-left: 10vw;;
     z-index: 3;
     color: beige;
     text-shadow: #1d0122 3px 3px 6px;
@@ -155,4 +229,9 @@ section{
     font-size: 24px;
     font-family: 'Baloo Tammudu 2', sans-serif;
     font-weight: 700;
+}
+#dani{
+    position: absolute;
+    z-index: 4;
+    margin-top:100px;
 }
