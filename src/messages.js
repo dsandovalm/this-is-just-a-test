@@ -64,7 +64,7 @@ export default [
         author: 'Paola'
     },
     {
-        message: `<span style="font-size: 24px;">Dani tengo un recuerdo muy grato de la pre-admisión del Bootcamp donde tu feedback sobre el proyecto de la Trivia no se limitó a la técnico sino que tu calidez humana me hizo soltar los nervios y enserio que me diste el impulso para creer en que podía llegar a hacer grandes cosas. Eres un gran referente para mi, en lo que deseo ser algún día a nivel profesional :) y solo me resta desearte las mejores vibras en todos los planos de tu vida! >/br> ~Hohjanna Flechas</span>`,
+        message: `<span style="font-size: 24px;">Dani tengo un recuerdo muy grato de la pre-admisión del Bootcamp donde tu feedback sobre el proyecto de la Trivia no se limitó a la técnico sino que tu calidez humana me hizo soltar los nervios y enserio que me diste el impulso para creer en que podía llegar a hacer grandes cosas. Eres un gran referente para mi, en lo que deseo ser algún día a nivel profesional :) y solo me resta desearte las mejores vibras en todos los planos de tu vida! </br> ~Hohjanna Flechas</span>`,
         author: ''
     }
 ]
