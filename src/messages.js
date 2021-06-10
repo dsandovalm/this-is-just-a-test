@@ -50,5 +50,17 @@ export default [
     {
         message:'Dani, te deseo lo mejor en lo que sea que te propongas hacer en la vida. Gracias por tu energía y todo lo que entregaste a Laboratoria y las estudiantes. Un abrazo grandote!',
         author:'Dani G.'
+    },
+    {
+        message: `<span style="font-size: 22px;"> Dani fue un placer trabajar contigo, me enseñaste mucho de ver a las personas como un todo y de siempre encontrar la calma en momentos de apuros, me enseñaste que hay que tomarse el tiempo de escuchar más que hablar. Te deseo lo mejor para cada paso de tu vida, mucha luz, mucha agua y mucha buena energía para cada paso que decidas dar. Un abrazo y que sigas llenando el mundo de muchas ideas increíbles. Me quedaré esperando la actividad de las pizzas jajaja </br> ~ Lina</span>`,
+        author: ''
+    },
+    {
+        message: `Dani, que lindo conocerte y tener la oportunidad de aprender y trabajar contigo. La mejor energía para esta nueva etapa que inicias, eres demasiado teso <img src="./images/heart.png" alt=":Heart:" width="20" > ¡Ojalá pronto volvamos a Pokito! jaja Un abrazo gigante.`,
+        author: 'Ana'
+    },
+    {
+        message: `Dani, que la vida te sorprenda con aventuras, que este nuevo camino este llene de aprendizaje y expasión hacia el lugar al que quieres ir <img src="./images/heart.png" alt=":Heart:" width="20" >`,
+        author: 'Paola'
     }
 ]
