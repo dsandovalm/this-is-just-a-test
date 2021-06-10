@@ -26,5 +26,14 @@ export default [
     {
         message: `Dani, </br> Gracias por las enseñanzas que nos dejaste en tan corto tiempo, tu paciencia y buenos consejos. Apreciamos mucho lo que hiciste por nosotras. Espero que logres todas esas nuevas metas que te has trazado y que crezcas muchísimo en esta nueva etapa. Te deseo muchos éxitos!`,
         author: 'Alejandra Pérez'
+    },
+    {
+        message: `<span style="font-size: 22px;"> Dani, <b>estamos muy agradecidas</b> por todo el empeño que nos dedicaste para darnos tus enseñanzas, consejos y correcciones. Estoy segura que con tu esfuerzo y dedicación al trabajo continuarás cosechando éxitos, sigue así porque <b>estas haciendo un trabajo estupendo</b> y no hay nada mejor que trabajar en lo que realmente amas y te motiva. Porque, aunque no sea fácil cumplir los sueños, tu no solo los has cumplido, sino que lo estás viviendo cada día. </br> <b> Atte: Mary Lagos</b> <img src="./images/lab.png" alt="Gracias Dani" width="20"></span>`,
+        author: ''
+    },
+    {
+        message: `<span style="font-size: 22px;" > Dani, </br> Solo me quedan sentimientos de agradecimiento y gratitud por la huella que dejaste en cada una de nosotras; por demostrarnos que con paciencia y esfuerzo podemos lograr lo que nos propongamos y por darnos tranquilidad
+        y confianza. Dejas un gran vacío y siempre te recordaremos con cariño. Te deseo el mejor de los éxitos en tu nueva etapa.</span>`,
+        author: 'Valentina Zea'
     }
 ]
