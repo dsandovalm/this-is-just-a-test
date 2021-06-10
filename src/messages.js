@@ -35,5 +35,20 @@ export default [
         message: `<span style="font-size: 22px;" > Dani, </br> Solo me quedan sentimientos de agradecimiento y gratitud por la huella que dejaste en cada una de nosotras; por demostrarnos que con paciencia y esfuerzo podemos lograr lo que nos propongamos y por darnos tranquilidad
         y confianza. Dejas un gran vacío y siempre te recordaremos con cariño. Te deseo el mejor de los éxitos en tu nueva etapa.</span>`,
         author: 'Valentina Zea'
+    }, {
+        message: `Dani, que te vaya super en los nuevos mares que descubras, un abrazo desde Bolivia </br> <img src="./images/hug.png" alt="Abrazo" width="200" > `,
+        author: 'Lupe'
+    },
+    {
+        message:'Dani! Alcanzamos a compartir poquito, pero te deseo mucho éxito en lo que viene, que logres las metas que te propones, que sigas aprendiendo y descubriendo cosas nuevas y entretenidas! Un abrazo y mucha suerte!',
+        author:'Fanny'
+    },
+    {
+        message:'<span style="font-size: 24px;"> Dani ! Fue muy importante iniciar esta gran experiencia contigo en el equipo, gracias por la paciencia, la buena energía y la dedicación que pusiste al Bootcamp. Te deseo cosas bien lindas para esta búsqueda que inicias, espero llegues a lugares con los que sueñas y puedas seguir aportando todo tu talento. Y muuucho buceo y agua para lo que viene. Por acá siempre a la orden.</span>',
+        author:'Lau'
+    },
+    {
+        message:'Dani, te deseo lo mejor en lo que sea que te propongas hacer en la vida. Gracias por tu energía y todo lo que entregaste a Laboratoria y las estudiantes. Un abrazo grandote!',
+        author:'Dani G.'
     }
 ]
