@@ -16,7 +16,7 @@ export default [
         author:'Tati Roa'
     },
     {
-        message:'Eres una persona asombrasa, seguro a donde vayas estaras proyectando tu de luz y alegría. Gracias a ti logré cosas que ni siquiera imaginaba, me ayudaste a mejorar y apreciar mi trabajo. Siempre, siempre voy a recordarte con mucho cariño. ¡Gracias por tu buena energia! ',
+        message:'Eres una persona asombrosa, seguro a donde vayas estaras proyectando tu luz y alegría. Gracias a ti logré cosas que ni siquiera imaginaba, me ayudaste a mejorar y apreciar mi trabajo. Siempre, siempre voy a recordarte con mucho cariño. ¡Gracias por tu buena energia! ',
         author:'Diana Católico'
     },
     {
